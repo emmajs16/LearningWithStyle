@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+.nav-wrapper{
+    background-color:#601E3A;
+    font-family: 'Special Elite', cursive;
+}
+.carousel-item{
+    width: 30% !important;
+    margin-top: -5%;
+}
+body{
+ background-color: #EAAFC3;
+ font-family: 'Special Elite', cursive;
+}
+.row{
+    background-color: #F4E2DA;
+} 
+.card{
+    /*background-color: #F4E2DA;*/
+    height: 150%;
+}
+h2{
+    text-align: center;
+}
+footer{
+    background-color: #D868B8;
+    text-align: center;
+    position: fixed;
+    bottom: 0px;
+    margin-left: 40%;
+    /*padding-top: 50%;*/
+}

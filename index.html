@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Learning With Style</title>
+<!--<script type="text/javascript" src="script.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+   <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+          
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <!--Nav Bar-->
+ <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Learning With Style</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="visual.html">Visual</a></li>
+        <li><a href="auditory.html">Auditory</a></li>
+        <li><a href="physical.html">Physical</a></li>
+        <li><a href="logical.html">Logical</a></li>
+      </ul>
+    </div>
+  </nav>
+    <!--Carosel-->
+  <div class="carousel">
+    <a class="carousel-item" href="visual.html"><img src="images/eye.JPG"></a>
+    <a class="carousel-item" href="auditory.html"><img src="images/ear.JPG"></a>
+    <a class="carousel-item" href="physical.html"><img src="images/hand.JPG"></a>
+    <a class="carousel-item" href="logical.html"><img src="images/brain.JPG"></a>
+  </div>
+  <script type="text/javascript"> 
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });</script>
+
+<h2> Select your learning style for study resources, tips, and more! </h2>
+
+
+<!-- MINI CARDS BRIEFLY DESCRIBING EACH LEARNING STYLE -->
+
+  <div class="row">
+  <div class="col m3">
+    <div class="card">
+      <div class="card-image">
+         <a href="#"><img src="images/eye.JPG"></a>
+        <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Visual Learner</span>
+      </div>
+      <div class="card-content">
+        <p>learns best with pictures, colors, spatial organization, and other visual media</p>
+      </div>
+    </div>
+  </div>
+     
+     <div class="row">
+  <div class="col m3">
+    <div class="card">
+      <div class="card-image">
+         <a href="#"><img src="images/ear.JPG"></a>
+        <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Auditory Learner</span>
+      </div>
+      <div class="card-content">
+        <p>learns best with music, rhyme, and words in speech or writing</p>
+      </div>
+    </div>
+  </div>
+  
+    <div class="row">
+  <div class="col m3">
+    <div class="card">
+      <div class="card-image">
+         <a href="#"><img src="images/hand.JPG"></a>
+        <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Physical Learner</span>
+      </div>
+      <div class="card-content">
+        <p>learns best by using hands and the sense of touch</p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row">
+  <div class="col m3">
+    <div class="card">
+      <div class="card-image">
+         <a href="#"><img src="images/brain.JPG"></a>
+        <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Logical Learner</span>
+      </div>
+      <div class="card-content">
+        <p>learns best through using reasoning and mathematics</p>
+      </div>
+    </div>
+  </div>
+
+            <footer>Coded with Love by Emma</footer>
+
+
+
+</body>
+</html>
