@@ -11,15 +11,15 @@ body{
  background-color: #EAAFC3;
  font-family: 'Special Elite', cursive;
 }
-.row{
-    background-color: #F4E2DA;
-} 
+/*.row{*/
+    /*background-color: #F4E2DA;*/
+/*} */
 .card{
     /*background-color: #F4E2DA;*/
     height: 150%;
 }
 h2{
-    text-align: center;
+    text-align: center
 }
 footer{
     background-color: #D868B8;
@@ -29,3 +29,9 @@ footer{
     margin-left: 40%;
     /*padding-top: 50%;*/
 }
+html, body, .block {
+    height: 100%;
+  }
+.container{
+      background-color: #F4E2DA;
+  }
