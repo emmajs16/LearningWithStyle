@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
+  <link rel="icon" href="images/eye.JPG">
   <title>Learning With Style</title>
   <script type="text/javascript" src="script.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -30,10 +30,10 @@
 		// input dialog:
 		input = createInput("Copy and paste your notes here");
 		input.style("width", 400);
-  		input.position(0, windowHeight+180);
+  		input.position(0, 320);
 		// button:
 		speakbutton = createButton('Read my notes');
-  		speakbutton.position(450, windowHeight+180);
+  		speakbutton.position(565,450);
   		speakbutton.mousePressed(doSpeak);
   		// sliders:
 		// labels:
@@ -87,10 +87,10 @@
       <h2 class="header">Study Tips</h2>
       <p class="grey-text text-darken-3 lighten-3"> Read a textbook aloud to yourself. Search Youtube and other video sites for songs that relate to what you are studying. Make up rhymes of your own to help you memorize information. Study your notes to a beat. Create mnenomic devices. Rewrite your
         notes.</p>
-        <h5>Use the tool at the bottom of the page to have your notes read to you!</h5>
+        <h5>Use the tool at the bottom of the page to have your notes read aloud to you!</h5>
     </div>
 
-
+<div id="tool"></div>
   <!---->
 
        <div class="row">
@@ -113,7 +113,7 @@
         <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Math</span>
       </div>
       <div class="card-content">
-        <p>learns best with music, rhyme, and words in speech or writing</p>
+        <p>Work out problems in a group and discuss the process</p>
       </div>
     </div>
   </div>
@@ -126,7 +126,7 @@
         <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Science</span>
       </div>
       <div class="card-content">
-        <p>learns best with music, rhyme, and words in speech or writing</p>
+        <p>Create songs to help you study facts and processes</p>
       </div>
     </div>
   </div>
@@ -139,7 +139,7 @@
         <span class="card-title" style="width:100%; background: rgba(0, 0, 0, 0.5);">Social Studies</span>
       </div>
       <div class="card-content">
-        <p>learns best with music, rhyme, and words in speech or writing</p>
+         <p>Create similies and comparisons</p>
       </div>
     </div>
   </div>

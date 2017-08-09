@@ -35,3 +35,7 @@ html, body, .block {
 .container{
       background-color: #F4E2DA;
   }
+ #tool{
+     height: 30%;
+     background-color: #C64C83;
+ }
